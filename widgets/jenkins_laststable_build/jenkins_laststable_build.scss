@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #008000;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$build_date-color:  rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget styles
+// ----------------------------------------------------------------------------
+.widget-last-build {
+
+  background-color: $background-color;
+
+  .title {
+    color: $title-color;
+  }
+
+  .project_name {
+    color: white;
+  }
+
+  .build_date {
+    color: $build_date-color;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &.large h1 {
+    font-size: 65px;
+  }
+}
